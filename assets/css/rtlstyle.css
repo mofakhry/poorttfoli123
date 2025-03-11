@@ -1,0 +1,52 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --default-font: "Amiri", serif;
+    --heading-font: "Amiri", serif;
+    --nav-font: "Amiri", serif;  }
+
+body{
+    font-family: var(--default-font);
+}
+
+.bi-chevron-down::before {
+    
+    margin-right: 10px;
+}
+
+.about ul i {
+
+    margin-left: 0.5rem;
+    margin-right: initial;
+}
+
+.about .watch-video a {
+    margin-left: initial;
+    margin-right: 8px;
+}
+
+.page-title .breadcrumbs ol li+li {
+    padding-left: initial;
+    padding-right: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+    padding-right: initial;
+    padding-left: 10px;
+
+}
+
+@media (min-width: 992px) {
+    .about .about-img {
+        right: initial;
+        left: 0px;
+    }
+}
+
+@media (min-width: 991px) {
+    .about .our-story {
+        padding-left: 35%;
+        padding-right: 20px;
+    }
+}
